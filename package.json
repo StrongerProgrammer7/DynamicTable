@@ -4,7 +4,9 @@
   "author": "rikzun",
   "scripts": {
     "start": "webpack serve --progress",
-    "build": "webpack build --progress"
+    "build": "webpack build --progress",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",
