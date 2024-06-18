@@ -1,0 +1,56 @@
+.table
+{
+	width: 98%;
+    margin: 10px auto;
+
+	& thead
+	{
+		text-align: left;
+		border-bottom: 1px solid #414144;
+		& th
+		{
+			padding: 0px 0px 10px 10px;
+			font-weight: 400;
+		}
+	}
+
+	& tbody
+	{
+		& tr
+		{
+			position: relative;
+			border-bottom: 1px solid #414144;
+			& td
+			{
+				padding: 8px 0px 8px 10px;
+				vertical-align: middle;
+			}
+
+			& td:nth-child(1)
+			{
+				width: 8%;
+			}
+		}
+	}
+}
+
+.btn_created_row
+{
+	cursor: pointer;
+	padding: 5px 30px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+
+	transition: transform 0.3s ease-in-out;
+}
+.btn_created_row:hover
+{
+	transform:scale(1.1);
+}
+.btn_created_row:active
+{
+	transform:scale(0.9);
+}

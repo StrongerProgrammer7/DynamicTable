@@ -1,0 +1,32 @@
+.nav_content
+{
+	border-bottom: 1px solid #414144;
+	width: 100%;
+}
+
+.nav_content__list
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	height: 100%;
+	& li 
+	{
+		padding: 11px 15px;
+		border-right:1px solid #414144;
+		
+		& a
+		{
+			color:#fff;
+			font-size: 18px;
+			line-height: 21px;
+			cursor: pointer;
+		
+			&:hover
+			{
+				color: #21a2ff;
+			}
+		}
+	}
+}

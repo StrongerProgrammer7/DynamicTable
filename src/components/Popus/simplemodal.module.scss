@@ -1,0 +1,20 @@
+.simple_modal
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	background-color: #fff;
+	border: 2px solid #ed2828;
+	box-shadow: 24px 24px 24px 24px rgba(0, 0, 0, .5);
+	text-align: center;
+	padding: 20px;
+}
+
+.modal__text
+{
+	font-size: 24px;
+	font-weight: 600;
+	letter-spacing: 10px;
+}

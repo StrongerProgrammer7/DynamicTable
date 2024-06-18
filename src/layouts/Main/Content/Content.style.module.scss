@@ -1,0 +1,23 @@
+.content
+{
+	background: #202124;
+	height: 100%;
+	color:#A1A1AA;
+}
+
+
+.loader_wrapper
+{
+	margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+	& .loader
+	{
+		width: 90px !important;
+		height: 90px !important;
+	}
+}

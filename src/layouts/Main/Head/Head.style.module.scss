@@ -1,0 +1,54 @@
+.header
+{
+	background: #27272A;
+	width: 100%;
+	border-bottom: 1px solid #414144;
+}
+
+.header_list
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 10px 10px;
+	gap:20px;
+	align-items: center;
+}
+
+.list__li
+{
+	color:#A1A1AA;
+	
+	cursor: pointer;
+
+	& a
+	{
+		font-size: 14px;
+		line-height: 16.41px;
+		transition: color 0.3s ease, border 0.2s ease;
+		padding: 0 0 14px 0;
+
+		&:hover
+		{
+			color:white;
+			border-bottom:2px solid white;
+		}
+
+		&.active
+		{	
+			color:white;
+			border-bottom:2px solid white;
+		}	
+	}
+
+	& svg,img
+	{
+		transition: transform 0.15s ease-in-out;
+		&:hover
+		{
+			transform:scale(1.1);
+		}
+	}
+}
+
+
