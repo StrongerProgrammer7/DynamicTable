@@ -1,13 +1,10 @@
-import { BrowserRouter } from 'react-router-dom';
 import './App.style.scss';
-import AppRouter from './components/AppRouter';
+import Layout from './components/Layout';
 
 function App() 
 {
     return (
-        <BrowserRouter>
-            <AppRouter />
-        </BrowserRouter>
+        <Layout />
     );
 }
 

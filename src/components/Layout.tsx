@@ -1,12 +1,13 @@
 import CircularProgress from "@mui/material/CircularProgress/CircularProgress";
-import { Suspense } from "react";
+import { lazy,Suspense } from "react";
 import { Outlet } from "react-router-dom";
+const Main = lazy(() => import("../pages/Main/Main"));
 
 const Layout = () =>
 {
 	return (
 		<Suspense fallback={<CircularProgress color="inherit" />}>
-			<Outlet />
+			<Main />
 		</Suspense>
 	);
 };
