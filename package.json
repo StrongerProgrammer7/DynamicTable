@@ -1,6 +1,7 @@
 {
   "name": "web-template",
   "version": "1.0.0",
+  "proxy": "http://185.244.172.108:8081",
   "author": "rikzun",
   "scripts": {
     "start": "webpack serve --progress",
